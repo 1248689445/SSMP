@@ -1,4 +1,4 @@
-package com.weixiang.entity;
+package com.weixiang.dao.entity;
 
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;

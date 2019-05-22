@@ -77,7 +77,7 @@
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
          -->
          <!-- 配置包别名 -->
-        <property name="typeAliasesPackage" value="com.weixiang.dao.model"/>
+        <property name="typeAliasesPackage" value="com.weixiang.dao.entity"/>
         <property name="plugins">
             <array>
                 <!-- 分页插件配置 -->
@@ -155,9 +155,9 @@
 <!--        </tx:attributes>-->
 <!--    </tx:advice>-->
 
-    <!-- 配置切面 -->
+<!--    &lt;!&ndash; 配置切面 &ndash;&gt;-->
 <!--    <aop:config>-->
-<!--        <aop:pointcut id="transactionPointcut" expression="execution(* com.weixiang.service.impl.*.*(..))"/>-->
+<!--        <aop:pointcut id="transactionPointcut" expression="execution(* com.weixiang.service.*.*(..))"/>-->
 <!--        <aop:advisor pointcut-ref="transactionPointcut" advice-ref="transactionAdvice"/>-->
 <!--    </aop:config>-->
 

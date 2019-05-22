@@ -1,23 +1,24 @@
-package com.weixiang.service.impl;
+package com.weixiang.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.weixiang.dao.NewsMapper;
-import com.weixiang.entity.News;
-import com.weixiang.service.INewsService;
+import com.weixiang.dao.entity.News;
+import com.weixiang.utils.exception.TestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
-public class NewsServiceImpl extends ServiceImpl<NewsMapper,News> implements INewsService {
+public class NewsService {
 
     @Autowired
     private NewsMapper newsMapper;
 
     //根据页数和一页显示条数查询
+    @Transactional
     public String SelectByPage(Integer page, Integer number) {
         if(page==null){
             page=1;
@@ -36,5 +37,19 @@ public class NewsServiceImpl extends ServiceImpl<NewsMapper,News> implements INe
         json.put("remainingPages:",pages.getPages()-pages.getCurrent());
 
         return json.toJSONString();
+    }
+
+    //根据页数和一页显示条数查询
+    @Transactional(readOnly = true,rollbackFor = TestException.class)
+    public News SelectByAll(Integer test) throws TestException {
+
+        if (test==null){
+            throw new TestException();
+        }
+
+
+           return newsMapper.selectById(test);
+
+
     }
 }

@@ -1,4 +1,4 @@
-package com.weixiang.entity;
+package com.weixiang.dao.entity;
 
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;
@@ -8,7 +8,6 @@ import com.baomidou.mybatisplus.enums.IdType;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
 
 @Data
 @TableName("news")

@@ -2,8 +2,7 @@ package com.weixiang.MapperTest;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.weixiang.dao.NewsMapper;
-import com.weixiang.entity.News;
-import com.weixiang.service.INewsService;
+import com.weixiang.dao.entity.News;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,15 +17,15 @@ import org.springframework.test.context.web.WebAppConfiguration;
 public class NewsTest {
 
 
-    @Autowired
-    INewsService iNewsService;
+//    @Autowired
+//    INewsService iNewsService;
     @Autowired
     NewsMapper newsMapper;
 
     @Test
     public void SelectTest(){
 
-        Page<News> page=new Page<News>(1,2);
+        Page<News> page=new Page<News>(3,2);
 
 
         System.out.println(newsMapper.selectByNewsPage(page));
@@ -39,10 +38,10 @@ public class NewsTest {
         System.out.println("是否有下一页"+page.hasNext());
     }
 
-    @Test
-    public void SelectByPage(){
-
-        System.out.println(iNewsService.SelectByPage(null,null));
-
-    }
+//    @Test
+//    public void SelectByPage(){
+//
+//        System.out.println(iNewsService.SelectByPage(null,null));
+//
+//    }
 }

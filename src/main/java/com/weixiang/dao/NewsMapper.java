@@ -2,7 +2,7 @@ package com.weixiang.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.weixiang.entity.News;
+import com.weixiang.dao.entity.News;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
