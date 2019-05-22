@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EShop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="279e4277-847b-42f8-8173-89f4498d7232" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/com/weixiang/MBGtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/com/weixiang/MapperTest/NewsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/com/weixiang/baseTest/TestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/dao/NewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/dao/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/entity/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/service/INewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/service/IUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/NewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/HttpKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/SuccessTip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/Tip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/view/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixiang/view/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/liujilu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/user_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/META-INF/EShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/dao/NewsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/dao/UserInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/entity/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/service/INewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/service/IUserInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/JSONUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/TimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/util/HttpKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/util/SuccessTip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/util/Tip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/util/WafKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/utils/base/util/WafRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/view/NewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/com/weixiang/view/UserInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/liujilu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/spring/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/sql/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/classes/sql/user_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-2.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/EShop-1.0-SNAPSHOT/templates/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/EShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/dao/NewsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/dao/UserInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/entity/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/service/INewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/service/IUserInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/service/impl/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/JSONUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/TimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/util/HttpKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/util/SuccessTip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/util/Tip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/util/WafKit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/utils/base/util/WafRequestWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/view/NewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/weixiang/view/UserInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liujilu.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/user_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/weixiang/MBGtest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/weixiang/MapperTest/NewsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/weixiang/baseTest/TestOne.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/view/NewsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="129" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/com/weixiang/MapperTest/NewsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="44" column="62" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#862#868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/NewsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#614#620#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/INewsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2885">
+              <caret line="167" column="34" lean-forward="true" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>S</find>
+      <find>catalina.home</find>
+      <find>Test</find>
+      <find>gitH</find>
+      <find>my</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Test/com/weixiang/baseTest/TestOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserInfoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/xml/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/xml/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/mapper/UserLogMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/IUserLogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/TimeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/model/UserLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/entity/UserLog.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MBGtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/util/share/Encrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/IUserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/util/JSONUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/view/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/util/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/SuccessTip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/HttpKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafRequestWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/Test/MapperTest/NewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/newsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/entity/News.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/dao/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/INewsService.java" />
+        <option value="$PROJECT_DIR$/src/Test/com/weixiang/MapperTest/NewsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/view/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/111111111111/Maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\111111111111\Maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="105" />
+    <option name="y" value="154" />
+    <option name="width" value="1640" />
+    <option name="height" value="939" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="weixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="MapperTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WeiXiang\EShop\src\main\resources\sql" />
+      <recent name="D:\WeiXiang\EShop\src\main\resources\mapper" />
+      <recent name="D:\WeiXiang\EShop\src\main\webapp\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.weixiang" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.weixiang.utils.base.util" />
+      <recent name="com.weixiang.util" />
+      <recent name="com" />
+      <recent name="com.weixiang.service" />
+      <recent name="com.weixiang.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WeiXiang\EShop\src\main\resources\spring" />
+      <recent name="D:\WeiXiang\EShop\src\main\java\com\weixiang\utils\base\util" />
+      <recent name="D:\WeiXiang\EShop\src\main\java\com\weixiang\util" />
+      <recent name="D:\WeiXiang\EShop\src\main\resources" />
+      <recent name="D:\WeiXiang\EShop\src\main\java\com\weixiang\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.404">
+    <configuration name="MBGtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weixiang.MBGtest" />
+      <module name="EShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weixiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.Select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weixiang.MapperTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weixiang.MapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.weixiang.MapperTest.NewsTest" />
+      <option name="METHOD_NAME" value="Select" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsTest.SelectByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weixiang.MapperTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weixiang.MapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.weixiang.MapperTest.NewsTest" />
+      <option name="METHOD_NAME" value="SelectByPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weixiang.baseTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weixiang.baseTest" />
+      <option name="MAIN_CLASS_NAME" value="com.weixiang.baseTest.TestOne" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.404" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.404" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="EShop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_EShop" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63609" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EShop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MBGtest" />
+      <item itemvalue="JUnit.TestOne.one" />
+      <item itemvalue="JUnit.NewsTest.Select" />
+      <item itemvalue="JUnit.NewsTest.SelectByPage" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.404" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NewsTest.SelectByPage" />
+        <item itemvalue="JUnit.NewsTest.Select" />
+        <item itemvalue="Application.MBGtest" />
+        <item itemvalue="JUnit.TestOne.one" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kaige\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="279e4277-847b-42f8-8173-89f4498d7232" name="Default Changelist" comment="" />
+      <created>1558345277099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558345277099</updated>
+      <workItem from="1558345280723" duration="1287000" />
+      <workItem from="1558399989818" duration="8037000" />
+      <workItem from="1558408080406" duration="23421000" />
+      <workItem from="1558486571995" duration="11587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 09m 20s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 13m 14s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 16m 49s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 17m 53s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 30m 20s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_Select - 2019.05.22 at 09h 30m 53s.xml">
+      <configuration name="NewsTest.Select" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_SelectByPage - 2019.05.22 at 10h 13m 50s.xml">
+      <configuration name="NewsTest.SelectByPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_SelectByPage - 2019.05.22 at 10h 15m 08s.xml">
+      <configuration name="NewsTest.SelectByPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_SelectByPage - 2019.05.22 at 10h 20m 15s.xml">
+      <configuration name="NewsTest.SelectByPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsTest_SelectByPage - 2019.05.22 at 10h 22m 09s.xml">
+      <configuration name="NewsTest.SelectByPage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44332000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="105" y="154" width="1640" height="939" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.221519" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.77356446" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21242236" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3296875" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36228287" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20585048" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.156013" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3296875" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.29035753" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test/com/weixiang/baseTest/TestOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserInfoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/SysUserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/SysUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/111111111111/Maven/apache-maven-3.3.9/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/TimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/111111111111/Maven/apache-maven-3.3.9/repository/com/baomidou/mybatis-plus/2.0.5/mybatis-plus-2.0.5.jar!/com/baomidou/mybatisplus/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="53" column="79" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserLogServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/IUserLogService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/entity/UserLog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/dao/UserLogMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/entity/sys_user.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/util/share/Encrypt.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/util/BaiDuImageToJson.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/util/share/JSONBeanUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/util/GsonUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/IUserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/111111111111/Maven/apache-maven-3.3.9/repository/com/baomidou/mybatis-plus/2.0.5/mybatis-plus-2.0.5.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/JSONUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/Tip.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/SuccessTip.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/HttpKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+          <folding>
+            <element signature="e#1454#1470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="144" column="27" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/utils/base/util/WafKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1295#1305#0" expanded="true" />
+            <element signature="e#1867#1877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/Test/MapperTest/NewsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/com/weixiang/MBGtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/111111111111/Maven/apache-maven-3.3.9/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/entity/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/view/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/dao/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/com/weixiang/MapperTest/NewsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="44" column="62" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#862#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/INewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2885">
+          <caret line="167" column="34" lean-forward="true" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="129" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/view/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixiang/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>EShop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
